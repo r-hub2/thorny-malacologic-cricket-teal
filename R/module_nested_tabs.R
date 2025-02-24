@@ -312,6 +312,7 @@ srv_teal_module.teal_module <- function(id,
         module_out(.call_teal_module(modules, datasets, module_teal_data, reporter))
       }
     })
+
     module_out
   })
 }

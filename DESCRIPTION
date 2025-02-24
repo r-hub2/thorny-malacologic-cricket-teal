@@ -1,8 +1,8 @@
 Type: Package
 Package: teal
 Title: Exploratory Web Apps for Analyzing Clinical Trials Data
-Version: 0.15.2.9131
-Date: 2025-02-12
+Version: 0.16.0.9000
+Date: 2025-02-24
 Authors@R: c(
     person("Dawid", "Kaledkowski", , "dawid.kaledkowski@roche.com", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0001-9533-457X")),
@@ -38,7 +38,7 @@ Depends: R (>= 4.1), shiny (>= 1.8.1), teal.data (>= 0.7.0), teal.slice
         (>= 0.6.0)
 Imports: checkmate (>= 2.1.0), cli, htmltools, jsonlite, lifecycle (>=
         0.2.0), logger (>= 0.2.0), methods, rlang (>= 1.0.0), shinyjs,
-        stats, teal.code (>= 0.6.0), teal.logger (>= 0.3.1),
+        stats, teal.code (>= 0.6.1), teal.logger (>= 0.3.2),
         teal.reporter (>= 0.4.0), teal.widgets (>= 0.4.3), tools, utils
 Suggests: bslib, ggplot2 (>= 3.4.0), knitr (>= 1.42), mirai (>= 1.1.1),
         MultiAssayExperiment, R6, renv (>= 1.0.11), rmarkdown (>=
@@ -81,7 +81,7 @@ Collate: 'TealAppDriver.R' 'checkmate.R' 'dummy_functions.R'
         'teal_slices.R' 'teal_transform_module.R' 'utils.R'
         'validate_inputs.R' 'validations.R' 'zzz.R'
 NeedsCompilation: no
-Packaged: 2025-02-18 05:05:04 UTC; dawidkaledkowski
+Packaged: 2025-02-24 06:34:03 UTC; dawidkaledkowski
 Author: Dawid Kaledkowski [aut, cre] (<https://orcid.org/0000-0001-9533-457X>),
   Pawel Rucki [aut],
   Aleksander Chlebowski [aut] (<https://orcid.org/0000-0001-5018-6294>),
